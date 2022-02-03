@@ -1,4 +1,6 @@
+#![allow(non_upper_case_globals)]
 #![crate_type = "lib"]
+#![no_std]
 
 struct Shared {
     big: Option<[u8; 2000]>,
